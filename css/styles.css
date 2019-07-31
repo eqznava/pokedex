@@ -19,7 +19,7 @@
 .bolt{
   grid-column: 9/10;
   grid-row: 2/10;
-  height: 604px;
+  height: 606px;
   width: 51px;
   border: 3px solid black;
   border-radius: 10px;
@@ -46,16 +46,18 @@
   border: 3px solid black;
   background-color: red;
   z-index: 2;
-  border-right-color: red;
+  border-right-style: none;
 }
 
 .door-two{
   grid-row: 3/10;
   grid-column: 4/7;
-  height: 525px;
-  width: 163px;
+  height: 528px;
+  width: 166px;
   border: 3px solid black;
-  border-top-color: red;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
 }
 
 .hide-diagonal{
@@ -71,9 +73,9 @@
   grid-row: 2/10;
   grid-column: 7/9;
   height: 600px;
-  width: 108px;
+  width: 111px;
   border: 3px solid black;
-  border-left-color: red;
+  border-left-style: none;
 }
 
 .button{
@@ -90,10 +92,20 @@
   transform-origin: center;
   transform: rotate(45deg);
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .button:hover{
   background-color: #c1c12f;
+}
+
+.poke-button{
+  grid-row: 6/7;
+  grid-column: 2/3;
+  z-index: 3;
+  display: flex;
+  justify-self:center;
+  align-self: center;
 }
 
 .button-hide{
@@ -106,8 +118,8 @@
   border: 3px solid black;
   background-color: red;
   z-index: 4;
-  border-top-color: transparent;
-  border-bottom-color: transparent;
+  border-top-style: none;
+  border-bottom-style: none;
 }
 
 .low-add{
