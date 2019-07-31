@@ -89,6 +89,11 @@
   align-self: center;
   transform-origin: center;
   transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #c1c12f;
 }
 
 .button-hide{
@@ -127,6 +132,7 @@
   border: 3px solid black;
   border-radius: 50%;
   z-index: 3;
+  box-shadow: 0 0 15px #c0d6e6;
 }
 
 .big-ligth-inside{
@@ -143,6 +149,7 @@
   border: 3px solid black;
   border-radius: 50%;
   z-index: 4;
+  box-shadow: 0 0 15px #c0d6e6;
 }
 
 .brigth{
@@ -156,6 +163,7 @@
   background-color: #c0d6e6;
   border-radius: 50%;
   z-index: 4;
+  box-shadow: 0 0 15px #c0d6e6;
 }
 
 .three-light{
@@ -179,6 +187,7 @@
   grid-column: 1/2;
   grid-row: 2/3;
   z-index: 4;
+  box-shadow: 0 0 15px #e2bfbf;
 }
 
 .brigth-red-ligth{
@@ -205,6 +214,7 @@
   grid-column: 3/4;
   grid-row: 2/3;
   z-index: 4;
+  box-shadow: 0 0 15px white;
 }
 
 .brigth-yellow-ligth{
@@ -231,6 +241,7 @@
   grid-column: 5/6;
   grid-row: 2/3;
   z-index: 4;
+  box-shadow: 0 0 15px #b6eeb2;
 }
 
 .brigth-green-ligth{
