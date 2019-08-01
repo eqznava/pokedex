@@ -1,8 +1,9 @@
 .body{
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-image:url('../images/back-poke.png');
 }
+
 
 .case{
   display: grid;
