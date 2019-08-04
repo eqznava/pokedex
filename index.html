@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Pokedex</title>
   </head>
-  <body class="body">
+  <body class="body" id="caseLeft">
     <div class="case">
       <div class="bolt"></div>
       <div class="diagonal"></div>
@@ -14,7 +14,7 @@
       <div class="hide-diagonal"></div>
       <div class="door-three"></div>
       <div class="button-hide"></div>
-        <a href="open-poke.html" class="poke-button" target="_blank">
+        <a class="poke-button" id="open-poke">
           <div class="button"></div>
         </a>
       <div class="low-add"></div>
@@ -34,5 +34,11 @@
         </div>
       </div>
     </div>
+    <div class="open-door-invisible" id="door">
+        <div class="doorThree"></div>
+        <div class="doorTwo"></div>
+        <div class="doorOne"></div>
+    </div>
+    <script src="js/interaction.js" charset="utf-8"></script>
   </body>
 </html>

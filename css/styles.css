@@ -4,6 +4,9 @@
   background-image:url('../images/back-poke.png');
 }
 
+.body.leftTo{
+  justify-content: flex-start;
+}
 
 .case{
   display: grid;
@@ -15,6 +18,23 @@
   border: 3px solid black;
   border-radius: 25px;
   box-shadow: 0 0 15px silver;
+}
+
+.open-door-invisible{
+  display: none;
+}
+
+.open-door-invisible.open-door-visible{
+  display: grid;
+}
+
+.open-door-visible{
+  border: 3px solid yellow;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 500px;
+  height: 750px;
 }
 
 .bolt{
@@ -92,12 +112,12 @@
   align-self: center;
   transform-origin: center;
   transform: rotate(45deg);
-  cursor: pointer;
   border-radius: 5px;
 }
 
 .button:hover{
   background-color: #c1c12f;
+  cursor: pointer;
 }
 
 .poke-button{
