@@ -11,9 +11,3 @@ $openClosePokedex.addEventListener('click', function(){
     $openDoor.classList.add('open-door-visible');
   }
 });
-
-// $openClosePokedex.addEventListener('click', function(){
-//   if($openDoor.classList.contains('open-door')){
-//   }else {
-//   }
-// });
