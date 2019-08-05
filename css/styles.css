@@ -93,55 +93,53 @@
 
 .diagonal{
   grid-row: 2/3;
-  grid-column: 3/7;
-  height: 34px;
-  width: 270px;
+  grid-column: 4/7;
+  height: 75px;
+  width: 166px;
   border: 3px solid black;
-  transform: rotate(-24deg);
-  transform-origin: center;
-  z-index: 1;
-  border-top-color: red;
-  border-left-color: red;
+  transform: rotate(-28deg);
+  transform-origin: top right;
+  z-index: 3;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  background-color: red;
+}
+
+.diagonal.backDarck{
+  background-color: #b31515;
 }
 
 .door-one{
   grid-row: 3/10;
-  grid-column: 2/4;
+  grid-column: 2/9;
   height: 525px;
-  width: 108px;
+  width: 385px;
   border: 3px solid black;
   background-color: red;
   z-index: 2;
-  border-right-style: none;
+  position: relative;
+}
+
+.door-one.backDarck{
+  background-color: #b31515;
 }
 
 .door-two{
-  grid-row: 3/10;
-  grid-column: 4/7;
-  height: 528px;
-  width: 166px;
-  border: 3px solid black;
-  border-top-style: none;
-  border-left-style: none;
-  border-right-style: none;
-}
-
-.hide-diagonal{
+  grid-row: 2/4;
   grid-column: 7/9;
-  grid-row: 1/2;
-  height: 75px;
-  width: 68px;
-  background-color: red;
-  z-index: 2;
-}
-
-.door-three{
-  grid-row: 2/10;
-  grid-column: 7/9;
-  height: 600px;
+  height: 78px;
   width: 111px;
   border: 3px solid black;
+  border-bottom-style: none;
   border-left-style: none;
+  background-color: red;
+  z-index: 2;
+  position: relative;
+}
+
+.door-two.backDarck{
+  background-color: #b31515;
 }
 
 .button{
